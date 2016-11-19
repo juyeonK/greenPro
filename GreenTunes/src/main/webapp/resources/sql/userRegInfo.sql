@@ -13,3 +13,7 @@ CREATE TABLE USERREGINFO(
 
 DESC USERREGINFO;
 
+INSERT INTO USERREGINFO (userId, userPw, userMail, userPhone, userGender, userName, userBirth, userRegDate, userLevel) VALUES
+('a', 'a', 'aa@aa.com', '01055555555', 'f', 'kjy', '19920325', '20161119', '1');
+
+SELECT * FROM USERREGINFO;
