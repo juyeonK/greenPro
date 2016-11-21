@@ -34,6 +34,7 @@ public class HomeController {
 		model.addAttribute("serverTime", formattedDate );
 		
 		// 안녕하세요.
+		// 주석을 하나 더 달았습니다.
 		
 		return "home";
 	}
